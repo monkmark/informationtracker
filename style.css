@@ -15,28 +15,28 @@ main {
 }
 
 form {
-    width: 20vw;
+    width: 50vw;
     height: 50vh;
     border: 1px solid black;
     border-radius: 5%;
     text-align: center;
     display: grid;
     position: relative;
-    left: 40%;
+    left: 25%;
     top: 20%;
     background-color: white;
 }
 label {
     position: relative;
     top: 20%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .textbar {
     position: relative;
     left: 25%;
     top: 20%;
     height: 5vh;
-    width: 10vw;
+    width: 25vw;
     border-radius: 10%;
     text-align: center;
 }
