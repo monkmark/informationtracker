@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Marvin",
+        "age": 9,
+        "City": "Los Angeles",
+        "Hobby": "Computers"
+    },
+    {
+        "name": "Alex",
+        "age": 17,
+        "City": "Chicago",
+        "Hobby": "Hiking"
+    },
+    {
+        "name": "Sarah",
+        "age": 22,
+        "City": "New York",
+        "Hobby": "Painting"
+    },
+    {
+        "name": "Bridgette",
+        "age": 15,
+        "City": "Seattle",
+        "Hobby": "Ice-Skating"
+    },
+    {
+        "name": "Robert",
+        "age": 52,
+        "City": "Detroit",
+        "Hobby": "Fishing"
+    }
+]

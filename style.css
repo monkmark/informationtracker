@@ -33,10 +33,10 @@ label {
 }
 .textbar {
     position: relative;
-    left: 25%;
+    left: 35%;
     top: 20%;
     height: 5vh;
-    width: 25vw;
+    width: 15vw;
     border-radius: 10%;
     text-align: center;
 }
