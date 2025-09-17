@@ -2,31 +2,49 @@
     {
         "name": "Marvin",
         "age": 9,
-        "City": "Los Angeles",
-        "Hobby": "Computers"
+        "city": "Los Angeles",
+        "hobby": "Computers"
     },
     {
         "name": "Alex",
         "age": 17,
-        "City": "Chicago",
-        "Hobby": "Hiking"
+        "city": "Chicago",
+        "hobby": "Hiking"
     },
     {
         "name": "Sarah",
         "age": 22,
-        "City": "New York",
-        "Hobby": "Painting"
+        "city": "New York",
+        "hobby": "Painting"
     },
     {
         "name": "Bridgette",
         "age": 15,
-        "City": "Seattle",
-        "Hobby": "Ice-Skating"
+        "city": "Seattle",
+        "hobby": "Ice-Skating"
     },
     {
         "name": "Robert",
         "age": 52,
-        "City": "Detroit",
-        "Hobby": "Fishing"
+        "city": "Detroit",
+        "hobby": "Fishing"
+    },
+    {
+        "name": "sai",
+        "age": 28,
+        "city": "Long Beach",
+        "hobby": "Make-up"
+    },
+    {
+        "name": "josh",
+        "age": 27,
+        "city": "Long Beach",
+        "hobby": "Anime"  
+    },
+        {
+        "name": "errick",
+        "age": 29,
+        "city": "Watts",
+        "hobby": "Smoking"  
     }
 ]
