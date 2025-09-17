@@ -16,20 +16,23 @@ async function fetchData() {
 
     // Filter the data based on user input
     const filteredData = data.filter(item => 
-      item.name.toLowerCase().includes(searchTerm) ||
-      item.age.toString().includes(searchTerm)
+      item.name.toLowerCase().includes(searchTerm)||
+      item.hobby.toLowerCase().includes(searchTerm)||
+      item.city.toLowerCase().includes(searchTerm)||
+      item.age.toString().includes(searchTerm) 
     );
     
     // Display results or a "no results" message
     if (filteredData.length > 0) {
       filteredData.forEach(item => {
         const cardDiv = document.createElement('div');
-        cardDiv.className = 'card';
-        cardDiv.innerHTML = `
-          <h3>${item.title}</h3>
-          <p><strong>Author:</strong> ${item.name}</p>
-          <p><strong>Year:</strong> ${item.age}</p>
-        `;
+        cardDiv.className = 'card'; //
+        resultsDiv.innerHTML = `
+          <p><strong>Name:</strong> ${item.name}</p>
+          <p><strong>Age:</strong> ${item.age}</p>
+          <p><strong>Hobby:</strong> ${item.hobby}</p>
+          <p><strong>Location:</strong> ${item.city}</p>
+          `;
         resultsDiv.appendChild(cardDiv);
       });
     } else {
